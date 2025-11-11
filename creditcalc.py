@@ -1,6 +1,7 @@
+import argparse
 import math
 
-"""loan = int(input("Enter the loan principal: \n > "))
+loan = int(input("Enter the loan principal: \n > "))
 monthly_payment = int(input("Enter the monthly payment: \n >"))
 print()
 print(f"It will take {int(loan / monthly_payment)} months to repay the loan.")
@@ -24,10 +25,7 @@ else:
         print(f"Your monthly payment = {monthly_payment} and the last payment = {loan - (monthly_payment * (number_of_months - 1))}.")
               #and the last payment = {loan - (number_of_months - 1) * (monthly_payment)}")
         #print(f"Your monthly payment = {math.ceil(loan - (number_of_months - 1) * (loan / number_of_months))} and the last payment = {loan - ((number_of_months - 1) * math.ceil(loan - (number_of_months - 1) * (loan / number_of_months)))}.")
-"""
 
-"""import argparse
-import math
 
 parser = argparse.ArgumentParser(description = "Annuity payment")
 parser.add_argument("--principal", type = int)
@@ -64,8 +62,6 @@ elif args.payment and args.periods and args.interest and not args.principal:
     P = A / ((i * (1 + i) ** n) / ((1 + i) ** n - 1))
     print(f"Your loan principal = {P}!")"""
 
-import argparse
-import math
 
 parser = argparse.ArgumentParser(description = "Annuity payment")
 parser.add_argument("--principal", type = int)
